@@ -1,5 +1,7 @@
 package ba.unsa.etf.rpr;
 
+
+
 public class Artikl {
     private String naziv, kod;
     private int cijena;

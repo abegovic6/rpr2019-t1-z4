@@ -10,6 +10,8 @@ public class Korpa {
         broj_artikala++;
         return true;
     }
+
+    public int getBroj_artikala() { return broj_artikala; };
     public Artikl[] getArtikli() {
         return artikli;
     }

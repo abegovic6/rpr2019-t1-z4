@@ -4,6 +4,9 @@ public class Supermarket {
     private Artikl[] artikli = new Artikl[1000];
     private int broj_artikala;
 
+    public int getBroj_artikala() {
+        return broj_artikala;
+    }
 
     public  void dodajArtikl (Artikl artikl) {
         artikli[broj_artikala] = artikl;
